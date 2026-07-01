@@ -1,6 +1,12 @@
+from kmk.handlers.sequences import simple_key_sequence, send_string
 import board
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.keys import KC
+from kmk.modules.holdtap import HoldTap
+from kmk.modules.macros import Press, Release, Tap, Delay, Macro
+
+modtap = HoldTap()
+macros = Macro()
 
 keyboard = KMKKeyboard()
 
@@ -9,19 +15,31 @@ keyboard = KMKKeyboard()
 keyboard.col_pins = (board.GP0)
 keyboard.row_pins = (board.GP1, board.GP2, board.GP3)
 keyboard.diode_orientation = col2row
+keyboard.modules.append(modtap)
+keyboard.modules.append(macros)
 
-# --- DEFINICIÓN DE ATRAJOS DE BLENDER ---
-VISTA_Z      = KC.Z         # Menú de sombreado (Wireframe/Solid)
+
 ENFOCAR_OBJ  = KC.PDOT      # Hace zoom/focus al objeto seleccionado
-DUPLICAR_OBJ  = KC.LSFT(KC.D)         # Oculta el objeto seleccionado
+DUPLICAR_OBJ  = KC.H         # Oculta el objeto seleccionado
 MOSTRAR_TODO = KC.LALT(KC.H) # Revela todo lo oculto (Alt + H)
 
-# --- MAPA DE LAS 4 TECLAS ---
-# El orden aquí abajo define qué botón físico hace qué cosa:
+
+OPEN_BLENDER = [
+     KC.LWIN(no_release=True),
+        KC.R,
+        KC.LWIN(no_press=True),
+        KC.MACRO_SLEEP_MS(250), # Wait for the Run window to pop up
+        send_string("Blender.exe"),
+        KC.ENTER,
+]
+VISTA_Z = KC.Z,        
+
+TECLA_DOBLE = KC.HT(VISTA_Z, OPEN_BLENDER, prefer_hold=True, tap_time=250)
+
 keyboard.keymap = [
     [
         # Fila 1: Botón Izquierdo, Botón Derecho
-        VISTA_Z,           ENFOCAR_OBJ,
+        TECLA_DOBLE,           ENFOCAR_OBJ,
         
         # Fila 2: Botón Izquierdo, Botón Derecho
         DUPLICAR_OBJ,       MOSTRAR_TODO
