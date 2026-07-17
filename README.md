@@ -1,3 +1,8 @@
+<img width="992" height="617" alt="Screenshot 2026-07-04 193833" src="https://github.com/user-attachments/assets/b69bbe3a-8599-4eee-a22d-8812ac43c819" />
+<img width="527" height="468" alt="Screenshot 2026-07-13 210049" src="https://github.com/user-attachments/assets/d94a0c30-3198-4c6a-8a61-37be3575c286" />
+<img width="542" height="395" alt="Screenshot 2026-07-13 210025" src="https://github.com/user-attachments/assets/d5b1c8cc-68ac-430b-98f0-5f68d00cb921" />
+<img width="558" height="446" alt="Screenshot 2026-07-13 210114" src="https://github.com/user-attachments/assets/259452dc-310b-485a-983f-e24993329a13" />
+
 # BlenderPad
 
 BlenderPad is a custom macropad project built for Blender workflow shortcuts, gaming controls, and a small OLED mini game. It is designed to be programmable with CircuitPython and KMK firmware, making it easy to customize for different use cases.
