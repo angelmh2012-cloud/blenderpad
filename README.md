@@ -1,5 +1,4 @@
 
-<img width="527" height="468" alt="Screenshot 2026-07-13 210049" src="https://github.com/user-attachments/assets/d94a0c30-3198-4c6a-8a61-37be3575c286" />
 
 # BlenderPad
 
@@ -25,7 +24,11 @@ The current design uses:
 - an OLED display for showing the active mode
 - keys connected to GPIO pins for custom actions
 - support for multiple functional profiles
+  
 <img width="558" height="446" alt="Screenshot 2026-07-13 210114" src="https://github.com/user-attachments/assets/259452dc-310b-485a-983f-e24993329a13" />
+<img width="733" height="396" alt="Screenshot 2026-08-07 154843" src="https://github.com/user-attachments/assets/8c9715c7-21a9-45db-be12-7b12a253abd0" />
+
+
 ## Firmware Details
 The firmware is written in Python and uses KMK for keyboard behavior. The device supports:
 - Blender shortcuts mode
