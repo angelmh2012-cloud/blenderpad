@@ -29,8 +29,8 @@ The current design uses:
 - keys connected to GPIO pins for custom actions
 - support for multiple functional profiles
   
-<img width="558" height="446" alt="Screenshot 2026-07-13 210114" src="https://github.com/user-attachments/assets/259452dc-310b-485a-983f-e24993329a13" />
-<img width="733" height="396" alt="Screenshot 2026-08-07 154843" src="https://github.com/user-attachments/assets/8c9715c7-21a9-45db-be12-7b12a253abd0" />
+<img width="530" height="402" alt="Screenshot 2026-08-10 202055" src="https://github.com/user-attachments/assets/45e3d6a7-20cc-41f8-a3dc-a8dfea530cda" />
+<img width="727" height="348" alt="Screenshot 2026-08-10 202013" src="https://github.com/user-attachments/assets/18553666-1f45-4581-b950-28a9f1b1a483" />
 
 
 ## Firmware Details
