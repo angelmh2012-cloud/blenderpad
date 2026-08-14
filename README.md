@@ -6,8 +6,6 @@ BlenderPad is a custom macropad project built for Blender workflow shortcuts, ga
 
 <img width="992" height="617" alt="Screenshot 2026-07-04 193833" src="https://github.com/user-attachments/assets/b69bbe3a-8599-4eee-a22d-8812ac43c819" />
 
-<img width="542" height="395" alt="Screenshot 2026-07-13 210025" src="https://github.com/user-attachments/assets/d5b1c8cc-68ac-430b-98f0-5f68d00cb921" />
-
 ## Project Overview
 This project started as a beginner-friendly hardware and firmware build for HackClub. The goal is to create a compact keypad that can:
 - trigger Blender shortcuts quickly
@@ -29,8 +27,9 @@ The current design uses:
 - keys connected to GPIO pins for custom actions
 - support for multiple functional profiles
   
-<img width="530" height="402" alt="Screenshot 2026-08-10 202055" src="https://github.com/user-attachments/assets/45e3d6a7-20cc-41f8-a3dc-a8dfea530cda" />
-<img width="727" height="348" alt="Screenshot 2026-08-10 202013" src="https://github.com/user-attachments/assets/18553666-1f45-4581-b950-28a9f1b1a483" />
+<img width="555" height="293" alt="Screenshot 2026-08-14 125708" src="https://github.com/user-attachments/assets/1e6a7f72-4e69-4009-898e-a46264d7bb6f" />
+<img width="521" height="377" alt="Screenshot 2026-08-14 125719" src="https://github.com/user-attachments/assets/a1d4091b-625b-485f-97e4-7590989a73ab" />
+
 
 
 ## Firmware Details
